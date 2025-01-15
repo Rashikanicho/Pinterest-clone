@@ -1,0 +1,560 @@
+*{   
+  font-family: "Noto Sans", serif;
+  font-style: normal;
+}
+
+.container{
+    width: 100%;
+    height:80px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer; 
+    position: fixed;
+    background-color: white;
+    margin-top:-10px ;
+    margin-left: -1%;
+    padding-right: 10%;
+}
+
+.logo img{
+    height:4vh;
+    padding: 30px 18px; 
+}
+
+.main-left{
+    width: 30px;
+    word-spacing: 10px;
+    display: flex;
+}
+
+.main-left p{
+    padding: 8px 20px;
+    font-weight: 550;
+    font-size: 15px;
+    padding-top: 65%;
+}
+
+.main-right{
+    display: flex;
+}
+
+.main-right h4{
+    padding: 15px 10px;
+    /*padding-bottom: 20px ;*/
+    margin: 9px; 
+    font-weight: 550;
+    font-size: 15px;
+    padding-top: 6%;
+}
+
+.main-right h4:hover{
+    text-decoration: underline;
+}
+
+.main-right button{
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px;
+    cursor: pointer;
+    border-radius:50px;
+    width: 75px;
+    height: 35px;
+
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.login{
+    background-color: rgb(207, 30, 30);
+    color: white;  
+}
+
+.login:hover{
+    background-color: darkred;
+}
+
+.signup{
+    background-color: #d4cccc;
+    color: #000;   
+}
+
+.signup:hover{
+    background-color: darkgrey;
+}
+
+.body1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 8%;
+    cursor: pointer;
+    height: 7vh;
+    margin-left: -1%;
+    margin-right: -0.6%;
+    
+}
+.content h1{
+    font-weight: 550;
+    font-size: 60px;
+}
+.chai h1{
+color: rgb(178, 135, 79);
+font-weight: 550;
+font-size: 60px;
+}
+
+.container2 h1{
+    font-weight: 550; 
+    font-size: 60px;
+}
+
+.container3 h1{
+    font-weight: 550;
+    font-size: 60px;
+}
+
+.container4 h1{
+    font-weight: 550;
+    font-size: 60px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
+    object-fit: cover;
+    display: flex;
+}
+
+.images img{
+    border-radius:15px;
+    width:240px;
+    height: 400px;
+}
+
+.img2, .img5{
+    align-self: center;   
+}
+
+.img3, .img4{
+    align-self: flex-end;
+}
+
+.decor{
+    color:rgb(47, 131, 187);
+    text-align: center;
+    padding-top: 4%;
+    cursor: pointer;
+    height: 7vh; 
+}
+.outfit{
+    color: rgb(23, 185, 117);
+    text-align: center;
+    padding-top: 4%;
+    cursor: pointer;
+    height: 7vh; 
+}
+.diy{
+    color: rgb(35, 156, 31);
+    text-align: center;
+    padding-top: 4%;
+    cursor: pointer;
+    height: 7vh; 
+}
+
+.page2{
+    background-color: #fffd92;
+    width: 100%;
+    height:120vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.chicken{
+    height: 95vh;
+    width: 695px;  
+    margin-top: 10%;
+}
+
+.chicken-text{
+    align-content:center;
+    color: #c31952;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+}
+.chicken-text h1{
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: -3%;
+}
+.para{
+    font-size: 25px;
+    justify-self: flex-end;
+    width:450px
+}
+.Explore, .page3{
+    background-color: rgb(233, 38, 38);
+    color: white; 
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius:50px;
+    width: 85px;
+    height: 50px; 
+}
+.Explore:hover{
+    background-color: darkred;
+}
+
+.page3{
+    background-color: #DAFFF6;
+    width: 100%;
+    height:120vh;   
+    border-radius: 0%;
+}
+.page3img{
+    height:10vh;
+    width: 20%;
+}
+.fern-container{
+    background-image: linear-gradient(135deg,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.3) 100%), url(/decor/9.jpg);
+    height: 52vh;
+    width: 50vh;
+    display: flex;
+    border-radius: 50px;
+    justify-content: space-around;
+    background-size: contain;
+    margin-left: 250%;
+}
+.fern-container img{
+    height: 20vh;
+    width: 15vh;
+    border-radius: 50px;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+.page3img h2{
+    color: white;
+    margin-top: -110%;
+    margin-left: 245%;
+    width: 150%;
+    font-weight: 500;
+    font-size: 56px;
+}
+.decor4{
+    background-image: linear-gradient(135deg,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.3) 100%), url(/decor/4.jpg);
+    height:32vh;
+    width:28vh;
+    border-radius: 25%;
+    background-size: contain;
+    justify-self: right;
+    margin-right: 3%;
+    text-align: left;
+}
+.decor4 h2{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 42%;
+    padding-left: 10%; 
+}
+.decor5{
+    background-image: linear-gradient(135deg,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.3) 100%), url(/decor/5.jpg);
+    height:20vh;
+    width:20vh;
+    border-radius: 25%;
+    background-size: contain;
+    justify-self: right;
+    margin-right: 8%;
+    margin-top: 5%;
+    text-align: left;
+}
+.decor5 h2{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 30%;
+    padding-left: 10%;
+}
+.decor6{
+    background-image: linear-gradient(135deg,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.3) 100%), url(/decor/6.jpg);
+    height:28vh;
+    width:25vh;
+    border-radius: 25%;
+    background-size: contain;
+    justify-self: right;
+    margin-right: 25%;
+    margin-top:-5%;
+}
+.decor6 h2{
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: left;
+    padding-top: 25%;
+    padding-left: 10%;
+}
+.decor7{
+    background-image: linear-gradient(135deg,  rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.3) 100%), url(/chai/6.jpg);
+    height:30vh;
+    width:30vh;
+    border-radius: 25%;
+    background-size: contain;
+    justify-self: right;
+    margin-right: 5%;
+    margin-top:-5%;
+} 
+.decor7 h2{
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: left;
+    padding-top: 40%;
+    padding-left: 10%;
+}
+.page3text{
+    color: #006B6C;
+    margin-top: -50%;
+    padding-right: 50%;
+    
+}
+.page3title h1{
+    font-size:56px;
+    font-weight: 800;  
+}
+.page3content p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.page4{
+    height: 92vh;
+    width: 100%;
+    background-color: #FFE2EB;
+    display: flex;
+}
+.face-img img{
+    height:92vh;
+    width:120%;
+    display: flex;
+}
+.content4{
+    color: #C32F00;
+    font-size: 28px;
+    width: 50%;
+    margin-left: 35%;
+    margin-top: 20%;
+    align-self: center;
+
+}
+.pg4-para{
+    color: #C32F00;
+    align-self: center;
+    width: 55%;
+    margin-left: 33%;
+    margin-top: -2%;
+    font-size: 25px;
+}
+.Explore-pg4 {
+    background-color: rgb(233, 38, 38);
+    color: white; 
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius:50px;
+    width: 85px;
+    height: 50px;
+    margin-left: 20%;      
+}
+.Explore-pg4:hover{
+    background-color: darkred;
+}
+.page5{
+    background-image:linear-gradient(135deg,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.5) 100%), url(https://i.pinimg.com/736x/1c/d3/6a/1cd36af831048299f29b0de8c78e3d68.jpg);
+    height: 120vh;
+    width:100%;
+    display: flex;
+}
+.tandc{
+    width: 60%;
+    height: 6vh ;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:rgb(255, 255, 255);     
+}
+.tandc h4:hover {
+    text-decoration: underline;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.tandc h4{
+    font-weight:500;
+    font-size: 45%;      
+}
+.pg5-content{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin-left: 10%;
+    
+}
+.page5-text{
+    font-size: 70px;
+    color: white;
+    font-weight: 500;
+    text-align: left;
+}
+/* .login-container{
+    height: 99vh;
+} */
+.logo-p{
+    display: flex;
+    height: 5vh; 
+    justify-self: center;  
+    padding-top: 5%;
+}
+.login-container{
+    border: 2px solid rgb(255, 255, 255);
+    width: 31%;
+    border-radius: 35px;
+    height: 95vh;
+    margin-top: 6%;
+    background-color: white;
+    margin-left: 24%;
+}
+.welcome .sent1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 0%;
+}
+.welcome .sent2{
+   font-size: 15px;
+   font-weight: 450;
+   margin-top: -6%;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: -8%;
+}
+.email-adrs{
+    padding-right: 60%;
+    font-size: 14px;
+    font-weight: 400;
+}
+.email-conatiner{
+    border: 2px solid rgb(187, 180, 180);
+    border-radius: 15px;
+    width: 280px;
+    height: 6vh;
+    margin-top: -10%;
+}
+.email-con-adr{
+    margin-top: 0%;
+    padding-top: 4%;
+    font-size: 15px;
+    font-weight: 450;
+    display: flex;
+    padding-left: 5%;
+    color: rgb(101, 99, 99);
+}
+.pass{
+    padding-right: 70%;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2%;
+}
+.dob{
+    padding-right: 65%;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2%;
+}
+.con-button{
+    background-color: #ea2d2d;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 280px;
+    height: 5vh;
+    font-size: 50%;
+    font-weight: 600;
+    margin-top: 2%;
+}
+.con-button:hover{
+    background-color: darkred;
+}
+.or{
+    font-size: 50%;
+    margin-top: 2%; 
+}
+.google{
+    background-color: #ffffff;
+    color: rgb(103, 95, 95);
+    border: 1px solid  rgb(187, 180, 180);
+    border-radius: 25px;
+    width: 280px;
+    height: 5vh;
+    font-size: 50%;
+    font-weight: 600;  
+}
+.cwg{
+    font-weight: 500;
+    font-size: 95%;
+    margin-top: 0%;
+    padding-top: 3%;
+}
+/* .google-logo{
+    height: 2.5vh;
+    padding-right: 80%;
+} */
+
+.terms-conditions{
+    font-size: 40%;
+    font-weight: 400;
+    width: 55%;
+    justify-self: center;
+}
+.conditions{
+    font-size: 40%;
+    font-weight: 400;
+    width: 55%;
+    justify-self: center; 
+    margin-top: -3%;
+}
+.business-container{
+    /* border: 2px solid black;  */
+    height: 9vh;
+    margin-top: 7%;
+    width: 61.5vh;
+    justify-self: center;
+    background-color: rgb(235, 232, 232);
+    border-radius: 0 0 35px 35px;   
+}
+.business-account{
+    font-size: 50%;
+    padding-top: 5%;
+}
+.terms-conditions b:hover{
+    text-decoration: underline;
+
+}

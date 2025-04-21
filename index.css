@@ -32,7 +32,8 @@
     padding: 8px 20px;
     font-weight: 550;
     font-size: 15px;
-    padding-top: 65%;
+    padding-top: 20%;
+    color: #000;
 }
 
 .main-right{
@@ -40,14 +41,15 @@
 }
 
 .main-right h4{
+    /* border: #000 solid 2px; */
     padding: 15px 10px;
-    /*padding-bottom: 20px ;*/
     margin: 9px; 
     font-weight: 550;
     font-size: 15px;
-    padding-top: 6%;
+    margin-top: 22px;
+    /* padding-top: 20%; */
+    color: black;
 }
-
 .main-right h4:hover{
     text-decoration: underline;
 }
